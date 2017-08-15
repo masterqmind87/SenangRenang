@@ -605,7 +605,7 @@ label:empty {
 }
 @media all {
   .bg {
-    background-color: #008080;
+    background-color: #8080c0;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -708,4 +708,40 @@ label:empty {
 .uib-footer h2 {
   font-size: 60%;
   color: pink;
+}
+.uib_row_7:not(.cright) > .col {
+  padding-right: 20px;
+}
+.uib_row_7.cright > .col {
+  padding-left: 20px;
+}
+@media all {
+  .col-0_12-12 {
+    width: auto;
+    float: none !important;
+  }
+  .urow:not(.cright) > .col-0_12-12 {
+    padding-right: 0px !important;
+  }
+  .urow.cright > .col-0_12-12 {
+    padding-left: 0px !important;
+  }
+}
+@media all and (min-width: 0px) {
+  .row-height-7 > .col > .content-area {
+    min-height: 100px;
+  }
+}
+@media all {
+  .maps-size {
+    height: 250px;
+  }
+}
+@media all {
+  .charts-size {
+    height: 250px;
+  }
+}
+.margin-auto {
+  margin: auto;
 }

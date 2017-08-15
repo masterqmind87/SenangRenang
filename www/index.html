@@ -77,6 +77,10 @@
         <script type="application/javascript" src="sidebar/js/jquery.hammer.js"></script>
         <script type="application/javascript" src="sidebar/js/swipe-hammer.js"></script>
         <script type="application/javascript" src="sidebar/js/sidebar.js"></script>
+        <script type="application/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
+        <script type="application/javascript" src="google_maps/google_maps.js"></script>
+        <script type="application/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="application/javascript" src="chart/chart.js"></script>
     </head>
 
     <body>
@@ -208,7 +212,9 @@
                     </div>
                     <div class="widget-container content-area horiz-area wrapping-col right"></div>
                 </div>
-                <div class="upage-content ac0 content-area vertical-col left" id="page_48_22"></div>
+                <div class="upage-content ac0 content-area vertical-col left" id="page_48_22">
+                    <div class="widget uib_w_44 charts-size d-margins" data-uib="media/chart" data-ver="0" data-chart-width="400" data-chart-height="400" data-query-string="select A,B" id="my_chart" data-chart-type="Pie" data-url="https://docs.google.com/spreadsheets/d/1NFvlWceKvnoUDHtrPpZmm6yV199s6B8yvkdUPPV0L0A/edit?usp=sharing"></div>
+                </div>
             </div>
         </div>
         <div class="upage hidden" id="TutorialVideos">
@@ -222,7 +228,17 @@
                     </div>
                     <div class="widget-container content-area horiz-area wrapping-col right"></div>
                 </div>
-                <div class="upage-content ac0 content-area vertical-col left" id="page_49_94"></div>
+                <div class="upage-content ac0 content-area vertical-col left" id="page_49_94">
+                    <div class="embed-video widget uib_w_45 d-margins" data-uib="media/youtube" data-ver="0">
+                        <iframe src="http://www.youtube.com/embed/rryxZjqLtNs?wmode=transparent">
+                        </iframe>
+                    </div>
+                    <figure class="margin-auto widget uib_w_46 d-margins" data-uib="media/video" data-ver="0">
+                        <video controls="controls">
+                            <source src="images/RX Vega.mp4" type="video/mp4">
+                        </video>
+                    </figure>
+                </div>
             </div>
         </div>
         <div class="upage hidden" id="LocationMap">
@@ -236,7 +252,17 @@
                     </div>
                     <div class="widget-container content-area horiz-area wrapping-col right"></div>
                 </div>
-                <div class="upage-content ac0 content-area vertical-col left" id="page_50_59"></div>
+                <div class="upage-content ac0 content-area vertical-col left" id="page_50_59">
+                    <div class="grid grid-pad urow uib_row_7 row-height-7" data-uib="layout/row" data-ver="0">
+                        <div class="col uib_col_9 col-0_12-12" data-uib="layout/col" data-ver="0">
+                            <div class="widget-container content-area vertical-col">
+                                <div class="widget uib_w_43 maps-size d-margins" data-uib="media/google_maps" data-ver="0" data-rpath="null" data-zoom="8" data-long="3.725350" data-lat="103.144853"></div>
+                                <span class="uib_shim"></span>
+                            </div>
+                        </div>
+                        <span class="uib_shim"></span>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="upage hidden" id="FeedbackForm">
